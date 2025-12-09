@@ -1,0 +1,141 @@
+[
+  {
+    "id": "O1",
+    "conditions": ["sisa_makanan"],
+    "conclusion": "organik",
+    "priority": 1,
+    "description": "Sisa makanan rumah tangga"
+  },
+  {
+    "id": "O2",
+    "conditions": ["daun_kering"],
+    "conclusion": "organik",
+    "priority": 1,
+    "description": "Daun kering atau ranting kecil"
+  },
+  {
+    "id": "O3",
+    "conditions": ["kulit_buah"],
+    "conclusion": "organik",
+    "priority": 1,
+    "description": "Kulit buah seperti pisang, jeruk, mangga"
+  },
+  {
+    "id": "O4",
+    "conditions": ["ampas_kopi"],
+    "conclusion": "organik",
+    "priority": 1,
+    "description": "Ampas kopi atau teh"
+  },
+
+  {
+    "id": "O5",
+    "conditions": ["sisa_makanan", "kulit_buah"],
+    "conclusion": "organik",
+    "priority": 2,
+    "description": "Campuran sisa makanan dan kulit buah tetap organik"
+  },
+
+  {
+    "id": "O6",
+    "conditions": ["daun_kering", "ampas_kopi"],
+    "conclusion": "organik",
+    "priority": 2,
+    "description": "Daun kering bercampur ampas kopi tetap organik"
+  },
+
+  {
+    "id": "A1",
+    "conditions": ["botol_plastik"],
+    "conclusion": "anorganik",
+    "priority": 5,
+    "description": "Botol plastik bekas minuman"
+  },
+  {
+    "id": "A2",
+    "conditions": ["kaleng_makanan"],
+    "conclusion": "anorganik",
+    "priority": 5,
+    "description": "Kaleng makanan atau minuman"
+  },
+  {
+    "id": "A3",
+    "conditions": ["kaca_pecah"],
+    "conclusion": "anorganik",
+    "priority": 5,
+    "description": "Kaca atau gelas pecah"
+  },
+  {
+    "id": "A4",
+    "conditions": ["kertas_bekas"],
+    "conclusion": "anorganik",
+    "priority": 5,
+    "description": "Kertas atau kardus bekas"
+  },
+
+  {
+    "id": "A5",
+    "conditions": ["botol_plastik", "kertas_bekas"],
+    "conclusion": "anorganik",
+    "priority": 6,
+    "description": "Campuran plastik dan kertas tetap anorganik"
+  },
+  {
+    "id": "A6",
+    "conditions": ["kaleng_makanan", "kaca_pecah"],
+    "conclusion": "anorganik",
+    "priority": 6,
+    "description": "Campuran logam dan kaca tetap anorganik"
+  },
+
+  {
+    "id": "B1",
+    "conditions": ["baterai"],
+    "conclusion": "b3",
+    "priority": 10,
+    "description": "Baterai bekas yang mengandung zat berbahaya"
+  },
+  {
+    "id": "B2",
+    "conditions": ["oli_bekas"],
+    "conclusion": "b3",
+    "priority": 10,
+    "description": "Oli bekas kendaraan"
+  },
+  {
+    "id": "B3",
+    "conditions": ["lampu_neon"],
+    "conclusion": "b3",
+    "priority": 10,
+    "description": "Lampu neon atau CFL yang berisi merkuri"
+  },
+  {
+    "id": "B4",
+    "conditions": ["obat_kadaluarsa"],
+    "conclusion": "b3",
+    "priority": 10,
+    "description": "Obat-obatan kadaluwarsa"
+  },
+
+  {
+    "id": "B5",
+    "conditions": ["baterai", "kaca_pecah"],
+    "conclusion": "b3",
+    "priority": 11,
+    "description": "Campuran baterai dan kaca pecah lebih berbahaya"
+  },
+  {
+    "id": "B6",
+    "conditions": ["oli_bekas", "kaleng_makanan"],
+    "conclusion": "b3",
+    "priority": 11,
+    "description": "Oli bekas yang mencemari logam tetap B3"
+  },
+  {
+    "id": "B7",
+    "conditions": ["lampu_neon", "kertas_bekas"],
+    "conclusion": "b3",
+    "priority": 11,
+    "description": "Lampu neon yang tercampur sampah lain tetap B3"
+  }
+]
