@@ -1,7 +1,14 @@
-[
-  "berbahaya",
-  "botol",
-  "daun_kering",
-  "kemasan_makanan",
-  "tajam"
-]
+{
+  "A": "basah",
+  "B": "mudah membusuk",
+  "C": "sisa makanan",
+  "D": "bau",
+  "E": "plastik",
+  "F": "keras",
+  "G": "logam",
+  "H": "berkarat",
+  "I": "baterai",
+  "J": "logam berat",
+  "K": "reaksi kimia",
+  "L": "beracun"
+}
